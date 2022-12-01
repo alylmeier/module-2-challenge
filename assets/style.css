@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+    color: burlywood;
+    font-family: monospace;
+    background-image: linear-gradient(
+        rgb(151, 16, 16) 0%,
+        rgb(255, 255, 255) 100%
+    );
+    
+}
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: #153115;
+    color: coral;
+    line-height: 5;
+    
+}
+nav ul {
+    display: inline-flex;
+    justify-content: right;  
+    min-width:300px;
+    list-style: none;
+    gap: 20px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+
+
+aside {
+    font-size: large;
+    color: mediumvioletred;
+}
+
+.project-section {
+    flex: 1;
+    padding: var(--radius);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
