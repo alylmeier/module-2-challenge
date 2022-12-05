@@ -24,6 +24,8 @@ body {
         rgb(18, 237, 109) 0%,
         rgb(255, 255, 255) 100%
     );
+    background-repeat: no-repeat;
+    
 
 }
 
@@ -106,6 +108,7 @@ h1 {
 h2 {
     font-size: x-large;
     padding-bottom: 10px;
+    background-color: none;
 }
 
 p{
