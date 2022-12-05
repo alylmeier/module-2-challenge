@@ -1,17 +1,11 @@
-
 header{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: left;
 
 }
 
-main{
-      
-    display: flex;
-    color: rgb(39, 21, 111);
-    line-height: 3;
-}
+
 
 .row{
     display: grid;
@@ -36,11 +30,26 @@ main{
     
 }
 
+.main{
+      
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-left: 100px;
+    color: rgb(39, 21, 111);
+    background-color: #153115;
+    color: coral;
+    line-height: 3;
+}
+
+
+
+
 body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    line-height: 1.5;
+    line-height: 1;
     min-height: 100vh;
     justify-content: flex-start;
     color: darkblue;
@@ -52,22 +61,26 @@ body {
     
 }
 
-a {
-    color:burlywood
+article{
+    padding-left: 50px;
+}
+
+h3{
+    padding-top: 50px;
+    font-size: x-large;
+}
+
+a.one {
+    color:burlywood;
+}
+
+a.two {
+    color:rgb(39, 21, 111)
+
 }
 
 
 
-
-.main{
-      
-    display: flex;
-    flex-direction: row;
-    padding: 1%;
-    background-color: #153115;
-    color: coral;
-    line-height: 3;
-}
 
 .other{
     display: flex;
@@ -82,32 +95,19 @@ a {
 
 
 
-nav ul {
-    display: inline-flex;
+ul {
+    display: flex;
     justify-content: right;  
     min-width:300px;
-    list-style: none;
     gap: 20px;
+    list-style-type: none;
 }
 
+footer ul {
+    justify-content: left;
 
-
-main {
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 50px;
 }
 
-
-
-aside {
-    flex: 1;
-    font-size: large;
-    color: darkblue;
-    padding: 80px;
-    text-align: center;
-    display: block;
-}
 
 .row{
     
@@ -116,9 +116,16 @@ aside {
     flex-direction: row;
     flex-wrap: wrap;
     
-    
-
 }
+
+footer{
+    display: flex;
+    padding-top: 50px;
+    justify-content: left;
+    font-size: x-large;
+}
+
+
 
 
 
