@@ -30,7 +30,7 @@ header{
     
 }
 
-.main{
+main{
       
     display: flex;
     flex-wrap: wrap;
@@ -65,7 +65,7 @@ article{
     padding-left: 50px;
 }
 
-h3{
+h3 {
     padding-top: 50px;
     font-size: x-large;
 }
