@@ -32,6 +32,7 @@ main {
     flex-direction: flex-wrap;
     justify-content: left;
     padding-left: 50px;
+    padding-top: 50px;
     color: rgb(39, 21, 111);
 }
  
@@ -70,6 +71,7 @@ ul {
     list-style-type: none;
 }
 
+
 footer ul {
     justify-content: left;
 
@@ -79,23 +81,35 @@ footer ul {
 footer{
     display: flex;
     padding-top: 50px;
-    justify-content: left;
+    justify-content: space-between;
     font-size: x-large;
+    
 }
 
 
 .main{
     display: flex;
     justify-content: space-between;
-    align-items: left;
+    align-items: center;
     background-color: #153115;
     color: coral;
-    line-height: 3;
+    line-height: 6;
     padding-left: 50px;
     padding-right: 20px;
 
 }
 
+h1 {
+    font-size: xx-large;
+}
 
+h2 {
+    font-size: x-large;
+    padding-bottom: 10px;
+}
+
+p{
+    line-height: 1.5;
+}
  
   
