@@ -7,6 +7,7 @@
     padding: 1%;
     color:rgb(68, 62, 62);
     line-height: 3;
+    width: 90%;
 
 }
 
@@ -25,6 +26,7 @@ body {
         rgb(255, 255, 255) 100%
     );
     background-repeat: no-repeat;
+    width: 100%;
     
 
 }
@@ -36,6 +38,7 @@ main {
     padding-left: 50px;
     padding-top: 50px;
     color: rgb(39, 21, 111);
+    width: 90%;
 }
  
 
@@ -98,6 +101,7 @@ footer{
     line-height: 6;
     padding-left: 50px;
     padding-right: 20px;
+    width: 100%;
 
 }
 
